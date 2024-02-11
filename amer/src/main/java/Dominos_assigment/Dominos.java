@@ -14,7 +14,7 @@ public class Dominos {
 	public static WebDriver driver;
 
 	public static void main(String[] args)  {
-	System.setProperty("webdriver.chrome.driver", "C:\\Users\\\\mshan\\Desktop\\New folder (2)\\batch7-master\\2023_batch_bootcamp\\drivers\\chromedriver.exe");  
+	System.setProperty("webdriver.chrome.driver", "C:\\Users\\mshan\\git\\repository6\\2023_batch_bootcamp\\drivers\\chromedriver.exe");  
 	driver = new ChromeDriver();    // Opening chrome broser    
     driver.get("https://www.dominos.com/");  // Navigate to Website
 	driver.manage().window().maximize();
